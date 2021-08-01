@@ -35,9 +35,19 @@ Spark 流数据：基于内存，not 磁盘，不用来回取了，效率高
 
 添加依赖，代码开发：`package com.peng.spark.core.wordcount`
 
-出现 bug：`ERROR Shell: Failed to locate the winutils binary in the hadoop binary path`
+出现 3 个 bug
 
-安装 hadoop：[https://blog.csdn.net/xrui_java7/article/details/70231221](https://blog.csdn.net/xrui_java7/article/details/70231221)
+bug 1：`ERROR Shell: Failed to locate the winutils binary in the hadoop binary path`
+
+安装 hadoop：[https://blog.csdn.net/weixin_43719616/article/details/116699376](https://blog.csdn.net/weixin_43719616/article/details/116699376)
+
+bug 2：`ERROR SparkContext: Error initializing SparkContext.org.apache.spark.SparkException: A master URL must be set in your configuration`
+
+bug 3：`Exception in thread "main" org.apache.spark.SparkException: A master URL must be set in your configuration`
+
+原因：new SparkContext() 里没有放 sparkConf 😂
+
+解决：`val sc = new SparkContext()` => `val sc = new SparkContext(sparkConf)`
 
 
 
