@@ -17,10 +17,10 @@ Spark 流数据：基于内存，not 磁盘，不用来回取了，效率高
 + Quick Start
     1. 安装 Scala 插件 课程里环境 spark3.0 scala2.12
     2. 创建 maven 项目 spark-core，add framework support 加上 scala
-    3. com.peng.spark.core.Test 测试环境
+    3. core.Test 测试环境
   
 
-出现 bug：`错误: 找不到或无法加载主类 com.peng.spark.core.Test`
+出现 bug：`错误: 找不到或无法加载主类 core.Test`
 
 原因：找不到 scala，
 
@@ -33,7 +33,7 @@ Spark 流数据：基于内存，not 磁盘，不用来回取了，效率高
 + WordCount 词频统计
 ![img.png](images/img.png)
 
-添加依赖，代码开发：`package com.peng.spark.core.wordcount`
+添加依赖，代码开发：`package core.wordcount`
 
 出现 3 个 bug
 
@@ -49,6 +49,5 @@ bug 3：`Exception in thread "main" org.apache.spark.SparkException: A master UR
 
 解决：`val sc = new SparkContext()` => `val sc = new SparkContext(sparkConf)`
 
-
-
++ [idea 编写scala提示variable 和 specify type 设置](https://www.cnblogs.com/itBulls/articles/9488218.html)
 

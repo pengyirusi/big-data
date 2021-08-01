@@ -4,10 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="各种 bug 心情很差">
+    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="bug 解决 心情大好">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/scala.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N01_Basis.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N02_DataType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N03_Variable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N04_AccessModifier.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N05_Operator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N06_Conditional.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N07_Loop.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N08_Method.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N09_Closure.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N10_String.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N11_Array.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/innerPackage/N04_AccessModifier_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/data/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/data/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/wordcount/Spark02_WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/wordcount/Spark03_WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_12_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_12_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58e488ee27f09131b96f1d2939b142e8093cf64d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ea17e4d39621695059bf327d395b39e5df62f2e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark/markdown/chapter 01.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/markdown/chapter 01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/com/peng/spark/core/wordcount/Spark01_WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/com/peng/spark/core/wordcount/Spark01_WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/spark-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/spark-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/com/peng/spark/core/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/com/peng/spark/core/wordcount/Spark01_WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/wordcount/Spark01_WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/com/peng/spark/core/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/com/peng/spark/core/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/com/peng/spark/core/wordcount/Spark01_WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/com/peng/spark/core/wordcount/Spark01_WordCount.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +51,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,26 +90,37 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/scala/src/notesWithCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark/data" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Scala" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\IDEA Project\big-data\spark\data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\IDEA Project\big-data\spark\markdown\images" />
       <recent name="Z:\IDEA Project\big-data\spark" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.peng.spark.core.wordcount" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Spark01_WordCount">
-    <configuration name="Spark01_WordCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.peng.spark.core.wordcount.Spark01_WordCount" />
-      <module name="spark-core" />
+  <component name="RunManager" selected="Application.N10_String">
+    <configuration name="N06_Conditional" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="notesWithCode.N06_Conditional" />
+      <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.peng.spark.core.wordcount.*" />
+          <option name="PATTERN" value="notesWithCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +128,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.peng.spark.core.Test" />
-      <module name="spark-core" />
+    <configuration name="N07_Loop" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="notesWithCode.N07_Loop" />
+      <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.peng.spark.core.*" />
+          <option name="PATTERN" value="notesWithCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N08_Method" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="notesWithCode.N08_Method" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notesWithCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N09_Closure" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="notesWithCode.N09_Closure" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notesWithCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N10_String" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="notesWithCode.N10_String" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notesWithCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Spark01_WordCount" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.N10_String" />
+        <item itemvalue="Application.N09_Closure" />
+        <item itemvalue="Application.N08_Method" />
+        <item itemvalue="Application.N07_Loop" />
+        <item itemvalue="Application.N06_Conditional" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +217,7 @@
       <workItem from="1627742193341" duration="882000" />
       <workItem from="1627782482038" duration="111000" />
       <workItem from="1627785025734" duration="964000" />
-      <workItem from="1627786053565" duration="620000" />
+      <workItem from="1627786053565" duration="17101000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -131,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627742647389</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bug 解决 心情大好">
+      <created>1627786689844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627786689844</updated>
+    </task>
+    <task id="LOCAL-00003" summary="bug 解决 心情大好">
+      <created>1627786696412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627786696412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +261,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="各种 bug 心情很差" />
-    <option name="LAST_COMMIT_MESSAGE" value="各种 bug 心情很差" />
+    <MESSAGE value="bug 解决 心情大好" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug 解决 心情大好" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

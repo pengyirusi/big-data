@@ -1,6 +1,4 @@
 
-L
-spark/markdown/chapter 02.md,9\e\9ea17e4d39621695059bf327d395b39e5df62f2e
 T
 $.idea/codeStyles/codeStyleConfig.xml,d\d\dd7b3350c29c49497756c7f32c69a3bed18b1cba
 q
@@ -263,16 +261,10 @@ c
 3.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml,e\3\e3ff1e732a31ffd5fc66a62de86e7358b7956807
 ]
 -.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml,2\5\25532c153306ad19b9dad3313dd0d4a3a90f7980
-H
-spark/spark-core/pom.xml,5\8\58e488ee27f09131b96f1d2939b142e8093cf64d
 L
 .idea/codeStyles/Project.xml,6\e\6ecd6000a7b6f4a2884412ff19f74193ed089648
 \
 ,.idea/inspectionProfiles/Project_Default.xml,4\9\496a238a6afa168dbaf6efd37bb459331589579c
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-U
-%.idea/libraries/scala_sdk_2_12_14.xml,d\a\daec741b9fc772333461c9c69b6f3c121f1c590b
 [
 +.idea/libraries/scala_sdk_2_12_14_local.xml,c\6\c667bad27099ce3c22de537f4d4985f7362af188
 T
@@ -281,5 +273,3 @@ U
 %.idea/libraries/scala_sdk_2_13_62.xml,a\e\ae3ada4e5b6d2d5ac953dba4664adbab97e17a41
 ?
 spark/spark.iml,2\a\2a5a89bdbeb4b3b6dd1205e8e0155160f3452098
-O
-spark/spark-core/spark-core.iml,6\4\64a2900384b4a52c8b2ca32ae148581793cabe5b
