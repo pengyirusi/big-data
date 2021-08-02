@@ -301,8 +301,6 @@ Z
 -scala/src/notesWithCode/N06_Conditional.scala,8\2\82ab7386a36ee3df1cc7838df51e8e85e3445dc1
 V
 &scala/src/notesWithCode/N07_Loop.scala,1\1\11fd2470e20277c40fb4e69dc45598d3c2f187af
-X
-(scala/src/notesWithCode/N08_Method.scala,f\f\ff26d1da897bdb93f1d0064592e8fb7ff701d5e6
 Y
 )scala/src/notesWithCode/N09_Closure.scala,a\5\a52f8e1ab210b1271365776038f87ac0eeffe2e1
 H
