@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="fork 开始学 scala">
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N13_ClassAndObject.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff26d1da897bdb93f1d0064592e8fb7ff701d5e6" beforeDir="false" />
+    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="fork 开始学 scala&#10;&#10;今天学了好多，很累很充实">
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N14_CompanionObject.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N15_Singolen.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N16_Trait.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N17_PatternMatch.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N18_Regex.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N19_Exception.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N20_Extractor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N20_Extractor2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N21_FileIO.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/a.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N12_Collection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N12_Collection.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N13_ClassAndObject.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N13_ClassAndObject.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Package Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,12 +87,13 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="notesWithCode" />
       <recent name="com.peng.spark.core.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.N13_ClassAndObject">
-    <configuration name="N10_String" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="notesWithCode.N10_String" />
+  <component name="RunManager" selected="Application.N21_FileIO">
+    <configuration name="N18_Regex" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="notesWithCode.N18_Regex" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N11_Array" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="notesWithCode.N11_Array" />
+    <configuration name="N19_Exception" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="notesWithCode.N19_Exception" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N12_Collection" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="notesWithCode.N12_Collection" />
+    <configuration name="N20_Extractor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="notesWithCode.N20_Extractor" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N13_ClassAndObject" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="notesWithCode.N13_ClassAndObject" />
+    <configuration name="N20_Extractor2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="notesWithCode.N20_Extractor2" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Point" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="notesWithCode.Point" />
+    <configuration name="N21_FileIO" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="notesWithCode.N21_FileIO" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
@@ -147,26 +157,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.N13_ClassAndObject" />
-        <item itemvalue="Application.Point" />
-        <item itemvalue="Application.N12_Collection" />
-        <item itemvalue="Application.N11_Array" />
-        <item itemvalue="Application.N10_String" />
+        <item itemvalue="Application.N21_FileIO" />
+        <item itemvalue="Application.N20_Extractor2" />
+        <item itemvalue="Application.N20_Extractor" />
+        <item itemvalue="Application.N19_Exception" />
+        <item itemvalue="Application.N18_Regex" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +194,8 @@
       <workItem from="1627785025734" duration="964000" />
       <workItem from="1627786053565" duration="17205000" />
       <workItem from="1627820395971" duration="3864000" />
-      <workItem from="1627908117291" duration="3647000" />
+      <workItem from="1627908117291" duration="3818000" />
+      <workItem from="1627992134459" duration="7831000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -230,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627824163377</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fork 开始学 scala&#10;&#10;今天学了好多，很累很充实">
+      <created>1627912418355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627912418355</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +269,8 @@
     <MESSAGE value="各种 bug 心情很差" />
     <MESSAGE value="bug 解决 心情大好" />
     <MESSAGE value="fork 开始学 scala" />
-    <option name="LAST_COMMIT_MESSAGE" value="fork 开始学 scala" />
+    <MESSAGE value="fork 开始学 scala&#10;&#10;今天学了好多，很累很充实" />
+    <option name="LAST_COMMIT_MESSAGE" value="fork 开始学 scala&#10;&#10;今天学了好多，很累很充实" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

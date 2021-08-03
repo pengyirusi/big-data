@@ -323,3 +323,9 @@ O
 .spark/spark-core/src/test/java/core/Test.scala,a\b\abf2cf3f981bc781367541b3e66eeb12aeede0d1
 X
 (scala/src/notesWithCode/N10_String.scala,1\4\14d7373d030fd63fd72a81ed01f17347a4c4ae2a
+W
+'scala/src/notesWithCode/N11_Array.scala,1\8\1896e8859cc8b67ec1e71835b806886a6ee7904a
+X
+(scala/src/notesWithCode/N08_Method.scala,f\f\ff26d1da897bdb93f1d0064592e8fb7ff701d5e6
+\
+,scala/src/notesWithCode/N12_Collection.scala,b\0\b00781a7b3742453d1297dc06150315551a425c5

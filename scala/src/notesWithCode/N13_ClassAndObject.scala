@@ -14,6 +14,7 @@ class N13_ClassAndObject(xc: Int, yc: Int){
     }
 }
 
+// 继承
 class Point3( val xc: Int,  val yc: Int,
               val zc: Int) extends N13_ClassAndObject(xc: Int, yc: Int) {
     var z: Int = zc;
