@@ -7,7 +7,7 @@ object N11_Array {
     def main(args: Array[String]): Unit = {
         // 声明
         var strings : Array[String] = new Array[String](3);
-        val ints = new Array[Int](5)
+        val ints : Array[Int] = new Array[Int](5);
 
         // 设置元素
         strings(0) = "hello";

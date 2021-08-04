@@ -7,10 +7,10 @@ object N02_DataType {
     def main(args: Array[String]): Unit = {
         // 数据类型
         // Byte	    8 位有符号补码整数。数值区间为 -128 到 127
-        // Short	    16 位有符号补码整数。数值区间为 -32768 到 32767
+        // Short	16 位有符号补码整数。数值区间为 -32768 到 32767
         // Int	    32 位有符号补码整数。数值区间为 -2147483648 到 2147483647
         // Long	    64 位有符号补码整数。数值区间为 -9223372036854775808 到 9223372036854775807
-        // Float	    32 位, IEEE 754 标准的单精度浮点数
+        // Float	32 位, IEEE 754 标准的单精度浮点数
         // Double	64 位, IEEE 754 标准的双精度浮点数
         // Char	    16 位, 无符号 Unicode 字符, 区间值为 U+0000 到 U+FFFF
         // String	字符序列
@@ -23,7 +23,7 @@ object N02_DataType {
         var a = 1
         var b = 2L // 默认 int, long 要在末尾加 L
         var c = 2.5
-        var d = 3.5F // // 默认 double, float 要在末尾加 F
+        var d = 3.5F // 默认 double, float 要在末尾加 F
         var e = true | false & true
         val f: String = "hello"
         val g: Char = 'a'

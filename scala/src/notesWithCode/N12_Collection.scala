@@ -27,12 +27,12 @@ object N12_Collection {
 
         // 连接
         val a1 = List(5, 6, 7);
-        val a2 = a ::: a1;
-        val a3 = a.:::(a1);
-        val a4 = List.concat(a, a1);
-        println(a2); // a 在前边
-        println(a3); // a1 在前边，为啥呢
-        println(a4); // a 在前边
+        val a2 = a ::: a1; // a 在前边
+        val a3 = a.:::(a1); // a1 在前边，为啥呢
+        val a4 = List.concat(a, a1); // a 在前边
+        println(a2);
+        println(a3);
+        println(a4);
 
         // fill
         val a5 = List.fill(5)(2); // 5 个 2

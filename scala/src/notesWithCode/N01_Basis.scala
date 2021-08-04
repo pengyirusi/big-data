@@ -5,8 +5,8 @@ package notesWithCode
  */
 object N01_Basis {
     def main(args: Array[String]): Unit = { // main函数，程序入口
-        val i: Int = 1 + 1
-        println("hello scala " + i + " !")
+        val i: Int = 1 + 1;
+        println("hello scala " + i + " !");
     }
 
 // 语法特点：区分大小写，类名大驼峰，方法小驼峰，扩展名为`.scala`

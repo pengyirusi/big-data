@@ -1,4 +1,4 @@
-package core.wordcount
+package wordcount
 
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
@@ -6,11 +6,10 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
  * Create by weiyupeng on 2021/7/31 21:07
  */
-object Spark02_WordCount {
+object Spark03_WordCount {
     def main(args: Array[String]): Unit = {
 
         // TODO 建立和 Spark 框架的连接
-        // JDBC ~ Connection == Spark ~ SparkContext
         val sparkConf = new SparkConf().setMaster("local").setAppName("WordCount")
         val sc = new SparkContext(sparkConf)
 
@@ -24,19 +23,9 @@ object Spark02_WordCount {
             word => (word, 1)
         }
 
-        val wordGroup: RDD[(String, Iterable[(String, Int)])] = wordToOne.groupBy (
-            (t: (String, Int)) => t._1
-        )
-
-        val wordToCount: RDD[(String, Int)] = wordGroup.map {
-            case (word, list) => {
-                list.reduce(
-                    (t1, t2) => {
-                        (t1._1, t1._2 + t2._2)
-                    }
-                )
-            }
-        }
+        // Spark 框架提供了更多的功能，可以将分组聚合用一个方法实现
+        // reduceByKey : 相同的 key 的数据，可以对 value 进行 reduce 聚合
+        val wordToCount: RDD[(String, Int)] = wordToOne.reduceByKey(_ + _) // 匿名函数，_+_ 相当于 (x,y)=>{x+y}
 
         val array: Array[(String, Int)] = wordToCount.collect()
         array.foreach(println)

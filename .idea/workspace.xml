@@ -4,20 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="fork 开始学 scala&#10;&#10;今天学了好多，很累很充实">
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N14_CompanionObject.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N15_Singolen.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N16_Trait.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N17_PatternMatch.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N18_Regex.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N19_Exception.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N20_Extractor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N20_Extractor2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N21_FileIO.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scala/src/notesWithCode/a.txt" afterDir="false" />
+    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="scala 完结 !!!">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abd72fac3a1dee1fdc5f839a2c60f54fbc348157" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/06457157e07202cd006aa09f38fa2558816d9f18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/1014995b0876d717a3e730ac848d4fbbdba4c616" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11fd2470e20277c40fb4e69dc45598d3c2f187af" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14d7373d030fd63fd72a81ed01f17347a4c4ae2a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/163baf92b645e3ea7968150c8bb7c8691eba94d3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/1896e8859cc8b67ec1e71835b806886a6ee7904a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d03f37958130fc7403e32a73733ea88861fc2c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/443a42e0294b0f79e43ccc14974b915e3f418086" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82ab7386a36ee3df1cc7838df51e8e85e3445dc1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99b6a6843131f2df131a4a8e3557d39babf8cd4b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ea17e4d39621695059bf327d395b39e5df62f2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a52f8e1ab210b1271365776038f87ac0eeffe2e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abf2cf3f981bc781367541b3e66eeb12aeede0d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b00781a7b3742453d1297dc06150315551a425c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3f44fc76e98ec9d5531971279fdbc2786d34cdd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4fcfa794d5d36b2f58c931f3d117bffba2ffa5d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff26d1da897bdb93f1d0064592e8fb7ff701d5e6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N13_ClassAndObject.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N13_ClassAndObject.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala/notesWithCode/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/notesWithCode/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scala/notesWithCode/N07_Loop$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/notesWithCode/N07_Loop$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N01_Basis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N01_Basis.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N02_DataType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N02_DataType.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N07_Loop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N07_Loop.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N08_Method.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N08_Method.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N11_Array.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N11_Array.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N12_Collection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N12_Collection.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/markdown/chapter 02.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/markdown/chapter 02.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/spark-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/spark-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/wordcount/Spark01_WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/wordcount/Spark01_WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/wordcount/Spark02_WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/wordcount/Spark02_WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/wordcount/Spark03_WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/wordcount/Spark03_WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark01_WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark01_WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark02_WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark02_WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark03_WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark03_WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark01_WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark01_WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark02_WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark02_WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark03_WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark03_WordCount.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +109,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/scala/src/notesWithCode" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark/spark-core/target/test-classes" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -77,9 +119,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\IDEA Project\big-data\spark\spark-core\target\test-classes" />
       <recent name="Z:\IDEA Project\big-data\spark\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\IDEA Project\big-data\spark\spark-core\src\main" />
       <recent name="Z:\IDEA Project\big-data\spark\markdown\images" />
       <recent name="Z:\IDEA Project\big-data\spark" />
     </key>
@@ -91,13 +135,13 @@
       <recent name="com.peng.spark.core.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.N21_FileIO">
-    <configuration name="N18_Regex" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="notesWithCode.N18_Regex" />
-      <module name="scala" />
+  <component name="RunManager" selected="Application.Spark02_WordCount">
+    <configuration name="Spark02_WordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="wordcount.Spark02_WordCount" />
+      <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notesWithCode.*" />
+          <option name="PATTERN" value="wordcount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N19_Exception" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="notesWithCode.N19_Exception" />
-      <module name="scala" />
+    <configuration name="Spark03_WordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="wordcount.Spark03_WordCount" />
+      <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notesWithCode.*" />
+          <option name="PATTERN" value="wordcount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N20_Extractor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="notesWithCode.N20_Extractor" />
-      <module name="scala" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="java.core.Test" />
+      <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notesWithCode.*" />
+          <option name="PATTERN" value="java.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N20_Extractor2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="notesWithCode.N20_Extractor2" />
-      <module name="scala" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="java.Test" />
+      <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notesWithCode.*" />
+          <option name="PATTERN" value="java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,37 +188,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N21_FileIO" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="notesWithCode.N21_FileIO" />
-      <module name="scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="notesWithCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="spark-core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.N21_FileIO" />
-        <item itemvalue="Application.N20_Extractor2" />
-        <item itemvalue="Application.N20_Extractor" />
-        <item itemvalue="Application.N19_Exception" />
-        <item itemvalue="Application.N18_Regex" />
+        <item itemvalue="Application.Spark02_WordCount" />
+        <item itemvalue="Application.Spark03_WordCount" />
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +235,8 @@
       <workItem from="1627786053565" duration="17205000" />
       <workItem from="1627820395971" duration="3864000" />
       <workItem from="1627908117291" duration="3818000" />
-      <workItem from="1627992134459" duration="7831000" />
+      <workItem from="1627992134459" duration="8176000" />
+      <workItem from="1628082598593" duration="6239000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -246,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627912418355</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="scala 完结 !!!">
+      <created>1628002379855</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628002379855</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +318,8 @@
     <MESSAGE value="bug 解决 心情大好" />
     <MESSAGE value="fork 开始学 scala" />
     <MESSAGE value="fork 开始学 scala&#10;&#10;今天学了好多，很累很充实" />
-    <option name="LAST_COMMIT_MESSAGE" value="fork 开始学 scala&#10;&#10;今天学了好多，很累很充实" />
+    <MESSAGE value="scala 完结 !!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="scala 完结 !!!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

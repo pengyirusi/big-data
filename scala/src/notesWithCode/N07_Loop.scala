@@ -12,20 +12,20 @@ object N07_Loop {
         /**
          * for loop
          */
-        for (i <- 1 to 5) {
+        for (i <- 1 to 5) { // <- 相当于 java foreach 中的冒号: for (Integer i : list) {}
             println("i = " + i);
         }
 
         val numList = List(1,2,3,4,5);
         for (a <- numList;
-             if a > 0; if a%2 == 1) { // 筛选出大于 0 的奇数
+             if a > 0; if a%2 == 1) { // filter 筛选出大于 0 的奇数
             println("a = " + a);
         }
 
-        var newList = for {
+        val newList = for {
             a <- numList;
             if a > 0; if a%2 == 1
-        } yield a;
+        } yield a * 10; // 遍历还有返回值 !?
         for (a <- newList) {
             println("Value of a: " + a);
         }
