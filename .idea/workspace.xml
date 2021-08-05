@@ -4,62 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="scala 完结 !!!">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abd72fac3a1dee1fdc5f839a2c60f54fbc348157" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/Test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/06457157e07202cd006aa09f38fa2558816d9f18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/1014995b0876d717a3e730ac848d4fbbdba4c616" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11fd2470e20277c40fb4e69dc45598d3c2f187af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14d7373d030fd63fd72a81ed01f17347a4c4ae2a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/163baf92b645e3ea7968150c8bb7c8691eba94d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/1896e8859cc8b67ec1e71835b806886a6ee7904a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d03f37958130fc7403e32a73733ea88861fc2c3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/443a42e0294b0f79e43ccc14974b915e3f418086" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82ab7386a36ee3df1cc7838df51e8e85e3445dc1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99b6a6843131f2df131a4a8e3557d39babf8cd4b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ea17e4d39621695059bf327d395b39e5df62f2e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a52f8e1ab210b1271365776038f87ac0eeffe2e1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abf2cf3f981bc781367541b3e66eeb12aeede0d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b00781a7b3742453d1297dc06150315551a425c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/3/d3f44fc76e98ec9d5531971279fdbc2786d34cdd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4fcfa794d5d36b2f58c931f3d117bffba2ffa5d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff26d1da897bdb93f1d0064592e8fb7ff701d5e6" beforeDir="false" />
+    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="复习了一遍 scala 语法，重新整理一下项目目录，这回正常了，不会找不到 object 了">
+      <change afterPath="$PROJECT_DIR$/spark/markdown/images/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/markdown/images/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/markdown/images/img4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58e74abe2f6016270cafbca74672ec8fe9bb1e7c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scala/notesWithCode/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/notesWithCode/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scala/notesWithCode/N07_Loop$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scala/notesWithCode/N07_Loop$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N01_Basis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N01_Basis.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N02_DataType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N02_DataType.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N07_Loop.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N07_Loop.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N08_Method.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N08_Method.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N11_Array.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N11_Array.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scala/src/notesWithCode/N12_Collection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/notesWithCode/N12_Collection.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark/markdown/chapter 02.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/markdown/chapter 02.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/spark-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/spark-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/Test.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/wordcount/Spark01_WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/wordcount/Spark01_WordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/wordcount/Spark02_WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/wordcount/Spark02_WordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/test/java/core/wordcount/Spark03_WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/wordcount/Spark03_WordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/Test$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark01_WordCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark01_WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark02_WordCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark02_WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark03_WordCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/core/wordcount/Spark03_WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/Test$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark01_WordCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark01_WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark02_WordCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark02_WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark03_WordCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/test-classes/core/wordcount/Spark03_WordCount.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,8 +75,8 @@
       <recent name="Z:\IDEA Project\big-data\spark\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="Z:\IDEA Project\big-data\spark\spark-core\src\main" />
       <recent name="Z:\IDEA Project\big-data\spark\markdown\images" />
+      <recent name="Z:\IDEA Project\big-data\spark\spark-core\src\main" />
       <recent name="Z:\IDEA Project\big-data\spark" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -195,15 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,7 +186,8 @@
       <workItem from="1627820395971" duration="3864000" />
       <workItem from="1627908117291" duration="3818000" />
       <workItem from="1627992134459" duration="8176000" />
-      <workItem from="1628082598593" duration="6239000" />
+      <workItem from="1628082598593" duration="6344000" />
+      <workItem from="1628165889666" duration="2309000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -294,7 +245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628002379855</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="复习了一遍 scala 语法，重新整理一下项目目录，这回正常了，不会找不到 object 了">
+      <created>1628088926923</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628088926923</updated>
+    </task>
+    <task id="LOCAL-00010" summary="复习了一遍 scala 语法，重新整理一下项目目录，这回正常了，不会找不到 object 了">
+      <created>1628088933606</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628088933606</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +284,8 @@
     <MESSAGE value="fork 开始学 scala" />
     <MESSAGE value="fork 开始学 scala&#10;&#10;今天学了好多，很累很充实" />
     <MESSAGE value="scala 完结 !!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="scala 完结 !!!" />
+    <MESSAGE value="复习了一遍 scala 语法，重新整理一下项目目录，这回正常了，不会找不到 object 了" />
+    <option name="LAST_COMMIT_MESSAGE" value="复习了一遍 scala 语法，重新整理一下项目目录，这回正常了，不会找不到 object 了" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
