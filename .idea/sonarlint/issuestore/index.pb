@@ -274,8 +274,6 @@ U
 ?
 spark/spark.iml,2\a\2a5a89bdbeb4b3b6dd1205e8e0155160f3452098
 @
-spark/data/1.txt,b\d\bde563bcccbe1b5976ce8918f42be648a53413b4
-@
 spark/data/2.txt,9\9\99a56b3b2ce5a4b569e052d84bfdf3ab16fd8a65
 t
 D.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml,f\e\fe857d1d58485aac3ffbd4d9ae0081a6106345a0
@@ -285,8 +283,6 @@ o
 ?scala/src/notesWithCode/innerPackage/N04_AccessModifier_2.scala,8\c\8cb8099138db6ff1fd92ea7d1b9f2fa22e4f1f60
 H
 spark/spark-core/pom.xml,5\8\58e488ee27f09131b96f1d2939b142e8093cf64d
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ?
 scala/scala.iml,3\4\34249aa85a5e8fc19737a959e0be760f907f7b4d
 U
@@ -311,8 +307,6 @@ Z
 *scala/src/notesWithCode/N15_Singolen.scala,d\0\d06d8e5dbcb344c1fa6092be52238edb88998f67
 a
 1scala/src/notesWithCode/N14_CompanionObject.scala,0\f\0f0069800e38a59177973a89869058bbc1e5a689
-W
-'scala/src/notesWithCode/N16_Trait.scala,4\6\46c63d81dfae6c92ea989d1248caac0ed81bd83a
 ^
 .scala/src/notesWithCode/N17_PatternMatch.scala,c\f\cff468c6157621156b36b91fe7fbee5f52eba3ff
 W
@@ -325,8 +319,6 @@ W
 ,scala/src/notesWithCode/N20_Extractor2.scala,6\a\6aee1e723e0e29bb05d0b62810cb19d443ab573a
 X
 (scala/src/notesWithCode/N21_FileIO.scala,5\0\506485f6d39b29478255e11727e32d025ef1415b
-L
-spark/markdown/chapter 01.md,0\6\06457157e07202cd006aa09f38fa2558816d9f18
 W
 'scala/src/notesWithCode/N01_Basis.scala,d\3\d3f44fc76e98ec9d5531971279fdbc2786d34cdd
 Z
@@ -340,10 +332,12 @@ W
 \
 ,scala/src/notesWithCode/N12_Collection.scala,b\0\b00781a7b3742453d1297dc06150315551a425c5
 p
-@spark/spark-core/src/main/java/wordcount/Spark01_WordCount.scala,b\c\bcd81df1deb7e6620c77996ac20909b2a19985b2
-p
 @spark/spark-core/src/main/java/wordcount/Spark02_WordCount.scala,3\5\35809b23cb659d7917f8e02ab6676bb9613e77f2
-O
-spark/spark-core/spark-core.iml,6\4\64a2900384b4a52c8b2ca32ae148581793cabe5b
-Y
-)spark/spark-core/src/main/java/Test.scala,1\2\127f8cbd285a2e1b24af3f217de17d81fef43526
+p
+@spark/spark-core/src/main/java/wordcount/Spark03_WordCount.scala,7\5\7546a298cc6988c0d2687aa70471954edaa38f31
+p
+@spark/spark-core/src/main/java/wordcount/Spark01_WordCount.scala,b\c\bcd81df1deb7e6620c77996ac20909b2a19985b2
+W
+'scala/src/notesWithCode/N16_Trait.scala,4\6\46c63d81dfae6c92ea989d1248caac0ed81bd83a
+@
+spark/data/1.txt,b\d\bde563bcccbe1b5976ce8918f42be648a53413b4

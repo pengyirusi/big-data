@@ -87,3 +87,15 @@ bin/spark-submit --class org.apache.spark.examples.SparkPi \
 + 配置历史服务
 
 查看执行过的服务
+
++ 高可用
+
+可以配置多个 Master, 一个工作 Alive, 其它备用 Standby
+
++ 端口号
+
+spark-shell 计算任务运行端口 4040
+spark 内部 master 通信端口 7077
+standalone 模式下 spark master web 资源端口 8080
+spark 历史服务端口 18080
+hadoop YARN 任务运行端口 8088

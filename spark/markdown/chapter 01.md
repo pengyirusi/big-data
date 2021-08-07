@@ -17,10 +17,10 @@ Spark 流数据：基于内存，not 磁盘，不用来回取了，效率高
 + Quick Start
     1. 安装 Scala 插件 课程里环境 spark3.0 scala2.12
     2. 创建 maven 项目 spark-core，add framework support 加上 scala
-    3. core.Test 测试环境
+    3. core.JavaEnvTest$ 测试环境
   
 
-出现 bug：`错误: 找不到或无法加载主类 core.Test`
+出现 bug：`错误: 找不到或无法加载主类 core.JavaEnvTest$`
 
 原因：找不到 scala，
 
