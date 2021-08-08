@@ -4,7 +4,7 @@ import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
- * Create by weiyupeng on 2021/8/8 11:11
+ * Create by weiyupeng on 2021/8/8 11:19
  */
 object Spark01_RddOperatorTransformPar {
     def main(args: Array[String]): Unit = {

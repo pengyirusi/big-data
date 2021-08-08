@@ -327,8 +327,6 @@ X
 (scala/src/notesWithCode/N08_Method.scala,f\f\ff26d1da897bdb93f1d0064592e8fb7ff701d5e6
 W
 'scala/src/notesWithCode/N11_Array.scala,1\8\1896e8859cc8b67ec1e71835b806886a6ee7904a
-\
-,scala/src/notesWithCode/N12_Collection.scala,b\0\b00781a7b3742453d1297dc06150315551a425c5
 p
 @spark/spark-core/src/main/java/wordcount/Spark02_WordCount.scala,3\5\35809b23cb659d7917f8e02ab6676bb9613e77f2
 p
@@ -363,10 +361,6 @@ d
 4spark/spark-core/src/main/java/test2/Executor2.scala,7\9\79ac1c5a1c07aa2433d6d79200aa3cd6b700b100
 _
 /spark/spark-core/src/main/java/JavaEnvTest.java,9\a\9aebb20a6039deb0fffe60ffae299d83cdbfa2b8
-G
-spark/output/part-00000,9\0\90ed02d197883a0c2d5647a827a48c237896d692
-G
-spark/output/part-00001,c\c\cc1be8436f6bb67fd1a8fdf53461c6befc7c09bb
 G
 spark/output/part-00002,e\9\e9a3c220fe6b471c9e231faa0adf13d7589d10b8
 G

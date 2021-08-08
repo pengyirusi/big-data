@@ -4,24 +4,24 @@ import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
- * Create by weiyupeng on 2021/8/8 11:33
- * 功能：获取每个分区的最大值
+ * Create by weiyupeng on 2021/8/8 21:50
+ * 功能：计算所有分区最大值求和
  */
-object Spark02_RddOperatorTransformTest {
+object Spark05_RddOperatorTransformTest {
     def main(args: Array[String]): Unit = {
         val sparkConf = new SparkConf().setMaster("local[*]").setAppName("Operator")
         val sc = new SparkContext(sparkConf)
 
-        // TODO 算子 - mapPartitions
+        // TODO 算子 - glom
         val rdd: RDD[Int] = sc.makeRDD(List(1, 2, 3, 4), 2)
 
-        val mpRDD: RDD[Int] = rdd.mapPartitions(
-            iter => {
-                List(iter.max).iterator // 返回值必须也是迭代器
-            }
+        val glomRDD: RDD[Array[Int]] = rdd.glom()
+
+        val maxRDD: RDD[Int] = glomRDD.map(
+            (arr: Array[Int]) => arr.max
         )
 
-        mpRDD.collect().foreach(println)
+        println(maxRDD.collect().sum)
 
         sc.stop()
     }

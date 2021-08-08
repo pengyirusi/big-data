@@ -96,7 +96,11 @@ package rdd.builder xxxPar.scala
 
 能看到分区编号
 
++ flatMap
 
++ glom
+
++ groupBy
 
 
 
