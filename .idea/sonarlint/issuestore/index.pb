@@ -271,8 +271,6 @@ T
 $.idea/libraries/scala_sdk_2_13_6.xml,7\1\7141658d0aabcf7d6fd60687820a2bb9e14ccd70
 U
 %.idea/libraries/scala_sdk_2_13_62.xml,a\e\ae3ada4e5b6d2d5ac953dba4664adbab97e17a41
-?
-spark/spark.iml,2\a\2a5a89bdbeb4b3b6dd1205e8e0155160f3452098
 @
 spark/data/2.txt,9\9\99a56b3b2ce5a4b569e052d84bfdf3ab16fd8a65
 t
@@ -341,3 +339,55 @@ W
 'scala/src/notesWithCode/N16_Trait.scala,4\6\46c63d81dfae6c92ea989d1248caac0ed81bd83a
 @
 spark/data/1.txt,b\d\bde563bcccbe1b5976ce8918f42be648a53413b4
+J
+spark/output/._SUCCESS.crc,6\c\6c7dd1a23460a43510a53bf453d6fa24258d4cf5
+@
+spark/data/3.txt,5\f\5ff70dd64fbe4460ebded229d657131b35cf4cfd
+E
+spark/output/_SUCCESS,8\d\8db79f1cc27ffd32dcffd2e7aa471fe7c3740ee9
+L
+spark/markdown/chapter 01.md,0\6\06457157e07202cd006aa09f38fa2558816d9f18
+L
+spark/markdown/chapter 02.md,9\e\9ea17e4d39621695059bf327d395b39e5df62f2e
+L
+spark/markdown/chapter 03.md,f\e\feb51fb0095db7bc90884aa84de6ea8a2fa82dd0
+`
+0spark/spark-core/src/main/java/test/Driver.scala,e\9\e97cb924799911bb3f787432f6719a266f4fb789
+a
+1spark/spark-core/src/main/java/test2/Driver.scala,1\2\1235aca796a24960a2cd715bcdd444a312e95dc9
+b
+2spark/spark-core/src/main/java/test/Executor.scala,e\8\e8f412ed36442d4387de9d6e94354ad856bd2dbb
+c
+3spark/spark-core/src/main/java/test2/Executor.scala,b\b\bb7472760a5b8810656e4a6b42dd6cb3b363d6cb
+d
+4spark/spark-core/src/main/java/test2/Executor2.scala,7\9\79ac1c5a1c07aa2433d6d79200aa3cd6b700b100
+_
+/spark/spark-core/src/main/java/JavaEnvTest.java,9\a\9aebb20a6039deb0fffe60ffae299d83cdbfa2b8
+G
+spark/output/part-00000,9\0\90ed02d197883a0c2d5647a827a48c237896d692
+G
+spark/output/part-00001,c\c\cc1be8436f6bb67fd1a8fdf53461c6befc7c09bb
+G
+spark/output/part-00002,e\9\e9a3c220fe6b471c9e231faa0adf13d7589d10b8
+G
+spark/output/part-00003,8\b\8bfd52ce4abad9771e3ea2c698d6f3646f0e42de
+r
+Bspark/spark-core/src/main/java/rdd/builder/Spark01_RddMemory.scala,5\e\5e2cf93baf7ea8f2bbb01d5318ba53d6df02ef9c
+u
+Espark/spark-core/src/main/java/rdd/builder/Spark01_RddMemoryPar.scala,7\c\7cbc6e536f4416ce059f28d5cfd637289d1afbed
+v
+Fspark/spark-core/src/main/java/rdd/builder/Spark01_RddMemoryPar1.scala,f\3\f35defcf2afe2e8f5b341dbefe0018cf9731a5c8
+p
+@spark/spark-core/src/main/java/rdd/builder/Spark02_RddFile.scala,a\a\aa71a2414b8b261d4d8185ddd14386d688c7e28f
+q
+Aspark/spark-core/src/main/java/rdd/builder/Spark02_RddFile1.scala,4\1\41fffa4a0dce90454814347da572ab411f9514f7
+s
+Cspark/spark-core/src/main/java/rdd/builder/Spark02_RddFilePar.scala,d\b\db9f6de3ea88957a32df708b53db59f4c91ad939
+O
+spark/spark-core/spark-core.iml,6\4\64a2900384b4a52c8b2ca32ae148581793cabe5b
+b
+2spark/spark-core/src/main/java/test2/SubTask.scala,0\0\002405ca12c6655fbc6f45e43a945f01e35250db
+^
+.spark/spark-core/src/main/java/test/Task.scala,1\b\1b58053229406faaaca8578b707035f6ef83ec07
+_
+/spark/spark-core/src/main/java/test2/Task.scala,8\0\803d085c5d18b5d57fe4fa845b11e495ff973eaf

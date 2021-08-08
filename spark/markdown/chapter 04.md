@@ -77,9 +77,24 @@ RDD 是不保存数据的，但 IO 有 buffer 可以临时保存数据
 
 package rdd.builder xxxPar.scala
 
-+ RDD 方法
-  1. 转换：功能的补充和封装，旧的 RDD 包装成新的 RDD
-  2. 行动：触发任务的调度和作业的执行
+### RDD 方法
++ RDD 方法 => RDD 算子
+
+1. 转换：功能的补充和封装，旧的 RDD 包装成新的 RDD，如 map flatMap
+2. 行动：触发任务的调度和作业的执行，如 collect
+  
+
+#### RDD 转换算子
+
+代码 package rdd.operator.transform
+
++ map 转换映射
+
++ mapPartitions
+
++ mapPartitionsWithIndex
+
+能看到分区编号
 
 
 
