@@ -337,12 +337,8 @@ W
 'scala/src/notesWithCode/N16_Trait.scala,4\6\46c63d81dfae6c92ea989d1248caac0ed81bd83a
 @
 spark/data/1.txt,b\d\bde563bcccbe1b5976ce8918f42be648a53413b4
-J
-spark/output/._SUCCESS.crc,6\c\6c7dd1a23460a43510a53bf453d6fa24258d4cf5
 @
 spark/data/3.txt,5\f\5ff70dd64fbe4460ebded229d657131b35cf4cfd
-E
-spark/output/_SUCCESS,8\d\8db79f1cc27ffd32dcffd2e7aa471fe7c3740ee9
 L
 spark/markdown/chapter 01.md,0\6\06457157e07202cd006aa09f38fa2558816d9f18
 L
@@ -361,10 +357,6 @@ d
 4spark/spark-core/src/main/java/test2/Executor2.scala,7\9\79ac1c5a1c07aa2433d6d79200aa3cd6b700b100
 _
 /spark/spark-core/src/main/java/JavaEnvTest.java,9\a\9aebb20a6039deb0fffe60ffae299d83cdbfa2b8
-G
-spark/output/part-00002,e\9\e9a3c220fe6b471c9e231faa0adf13d7589d10b8
-G
-spark/output/part-00003,8\b\8bfd52ce4abad9771e3ea2c698d6f3646f0e42de
 r
 Bspark/spark-core/src/main/java/rdd/builder/Spark01_RddMemory.scala,5\e\5e2cf93baf7ea8f2bbb01d5318ba53d6df02ef9c
 u
@@ -385,3 +377,39 @@ b
 .spark/spark-core/src/main/java/test/Task.scala,1\b\1b58053229406faaaca8578b707035f6ef83ec07
 _
 /spark/spark-core/src/main/java/test2/Task.scala,8\0\803d085c5d18b5d57fe4fa845b11e495ff973eaf
+a
+1spark/spark-core/src/main/java/ScalaEnvTest.scala,8\f\8fcc71640032bb8d0691ba9219b52a1f6c33dbb9
+t
+Dspark/spark-core/src/main/java/rdd/builder/Spark02_RddFilePar1.scala,8\b\8b0c19844d4edf31770041e29b8049f14a0a0031
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+?
+spark/spark.iml,2\a\2a5a89bdbeb4b3b6dd1205e8e0155160f3452098
+ˆ
+Xspark/spark-core/src/main/java/rdd/operator/transform/Spark01_RddOperatorTransform.scala,7\c\7c90995d8a4862df66079be78880da77cc5180e0
+‹
+[spark/spark-core/src/main/java/rdd/operator/transform/Spark01_RddOperatorTransformPar.scala,a\2\a249562773dc963398f9d2c0e5cbdb06d8289594
+Œ
+\spark/spark-core/src/main/java/rdd/operator/transform/Spark01_RddOperatorTransformPart.scala,d\d\dda029b6204d6bcede0149c3566be30facb6651d
+Œ
+\spark/spark-core/src/main/java/rdd/operator/transform/Spark01_RddOperatorTransformTest.scala,d\3\d3b0e5461bc8481fdf8af736c76719549712567c
+ˆ
+Xspark/spark-core/src/main/java/rdd/operator/transform/Spark02_RddOperatorTransform.scala,9\d\9d55550861d4ef1efb62b32f65581c64585877d0
+Œ
+\spark/spark-core/src/main/java/rdd/operator/transform/Spark02_RddOperatorTransformTest.scala,5\6\567b239fce070806f26f5f521c63d2f68f47c9a8
+ˆ
+Xspark/spark-core/src/main/java/rdd/operator/transform/Spark03_RddOperatorTransform.scala,c\b\cb1ebbcbdfd5ce57630a5a08cc4324d1a7135764
+‰
+Yspark/spark-core/src/main/java/rdd/operator/transform/Spark03_RddOperatorTransform1.scala,1\a\1a05993f8d8320354c585aa9a7b4cf71daff0822
+ˆ
+Xspark/spark-core/src/main/java/rdd/operator/transform/Spark04_RddOperatorTransform.scala,e\d\edf54a31db7097ca14815b0e50298670af662d40
+‰
+Yspark/spark-core/src/main/java/rdd/operator/transform/Spark04_RddOperatorTransform1.scala,d\4\d451d1ce90a2d72fd8d4d6517c8af7d301910227
+‰
+Yspark/spark-core/src/main/java/rdd/operator/transform/Spark04_RddOperatorTransform2.scala,c\f\cf9313e7732ffb916f526e04ca2da8836df85e5d
+ˆ
+Xspark/spark-core/src/main/java/rdd/operator/transform/Spark05_RddOperatorTransform.scala,4\e\4e3dc4601f6c2b5c97f0ccb2d342fdc1b7b5e823
+Œ
+\spark/spark-core/src/main/java/rdd/operator/transform/Spark05_RddOperatorTransformTest.scala,a\f\af54a6174cc16d73d5eafe785bd34d0dc1e89d30
+ˆ
+Xspark/spark-core/src/main/java/rdd/operator/transform/Spark06_RddOperatorTransform.scala,d\3\d3cdcdebadf49189e1132de9050b706af0d23580

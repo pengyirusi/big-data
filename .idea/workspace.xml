@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="RDD Operator">
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark01_RddOperatorTransformPart.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark04_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark04_RddOperatorTransform1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark04_RddOperatorTransform2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark05_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark05_RddOperatorTransformTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark06_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark06_RddOperatorTransform1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark06_RddOperatorTransform2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a5a89bdbeb4b3b6dd1205e8e0155160f3452098" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b00781a7b3742453d1297dc06150315551a425c5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/markdown/chapter 04.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/markdown/chapter 04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/output/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/output/.part-00000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/output/.part-00001.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/output/.part-00002.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/output/.part-00003.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/output/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/output/part-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/output/part-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/output/part-00002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/output/part-00003" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark01_RddOperatorTransformPar.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark01_RddOperatorTransformPar.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark01_RddOperatorTransformTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark01_RddOperatorTransformTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark02_RddOperatorTransform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark02_RddOperatorTransform.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark02_RddOperatorTransformTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark02_RddOperatorTransformTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark03_RddOperatorTransform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark03_RddOperatorTransform.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark03_RddOperatorTransform1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark03_RddOperatorTransform1.scala" afterDir="false" />
-    </list>
+    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="RDD Operator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -236,7 +205,7 @@
       <workItem from="1628165889666" duration="2309000" />
       <workItem from="1628297609700" duration="21256000" />
       <workItem from="1628329150861" duration="2422000" />
-      <workItem from="1628389392277" duration="17480000" />
+      <workItem from="1628389392277" duration="17643000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -329,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628425374452</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="RDD Operator">
+      <created>1628433959590</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628433959590</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
