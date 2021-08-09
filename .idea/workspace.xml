@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="RDD Operator">
-      <change afterPath="$PROJECT_DIR$/spark/output/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/output/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/output/.part-00001.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/output/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/output/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/output/part-00001" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark07_RddOperatorTransform.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark07_RddOperatorTransformTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark08_RddOperatorTransform.scala" afterDir="false" />
@@ -230,7 +224,7 @@
       <workItem from="1628329150861" duration="2422000" />
       <workItem from="1628389392277" duration="17643000" />
       <workItem from="1628434106884" duration="33000" />
-      <workItem from="1628507463820" duration="9036000" />
+      <workItem from="1628507463820" duration="9348000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -337,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628434124159</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="RDD Operator">
+      <created>1628517543789</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1628517543789</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
