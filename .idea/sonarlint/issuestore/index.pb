@@ -411,5 +411,3 @@ Yspark/spark-core/src/main/java/rdd/operator/transform/Spark04_RddOperatorTransf
 Xspark/spark-core/src/main/java/rdd/operator/transform/Spark05_RddOperatorTransform.scala,4\e\4e3dc4601f6c2b5c97f0ccb2d342fdc1b7b5e823
 Œ
 \spark/spark-core/src/main/java/rdd/operator/transform/Spark05_RddOperatorTransformTest.scala,a\f\af54a6174cc16d73d5eafe785bd34d0dc1e89d30
-ˆ
-Xspark/spark-core/src/main/java/rdd/operator/transform/Spark06_RddOperatorTransform.scala,d\3\d3cdcdebadf49189e1132de9050b706af0d23580

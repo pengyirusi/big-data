@@ -88,19 +88,49 @@ package rdd.builder xxxPar.scala
 
 代码 package rdd.operator.transform
 
-+ map 转换映射
+##### value 类型
 
-+ mapPartitions
+1. map 转换映射
 
-+ mapPartitionsWithIndex
+2. mapPartitions
 
-能看到分区编号
+3. mapPartitionsWithIndex 能看到分区编号
 
-+ flatMap
+4. flatMap
 
-+ glom
+5. glom
 
-+ groupBy
+6. groupBy
+
+7. filter
+
+8. sample
+
+9. distinct
+
+10. coalesce
+
+11. repartition
+
+12. sortBy
+
+##### 双 value 类型
+
+13. intersection
+
+14. union
+
+15. subtract
+
+16. zip
+
+##### key - value 类型
+
+17. partitionBy
+
+18. reduceByKey
+
+19. groupByKey
 
 
 
