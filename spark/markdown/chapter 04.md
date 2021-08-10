@@ -132,6 +132,21 @@ package rdd.builder xxxPar.scala
 
 19. groupByKey
 
+从 shuffle 的角度: reduceByKey 和 groupByKey 都存在 shuffle 的操作，但是 reduceByKey 可以在 shuffle 前对分区内相同 key 的数据进行预聚合(combine)功能，这样会减少落盘的数据量，而 groupByKey 只是进行分组，不存在数据量减少的问题，reduceByKey 性能更高。
+
+从功能的角度: reduceByKey 其实包含分组和聚合的功能。GroupByKey 只能分纽，不能聚合，所以在分组聚合的场合下，推荐使用 reduceByKey，如果仅仅是分组而不需要聚合，那么还是只能使用 groupByKey。
+
+20. aggregateByKey
+
+21. foldByKey
+
+22. combineByKey
+
+23. join
+
+24. leftOuterJoin rightOuterJoin
+
+25. cogroup
 
 
 

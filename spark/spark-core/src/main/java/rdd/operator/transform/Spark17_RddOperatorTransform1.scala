@@ -4,18 +4,18 @@ import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.rdd.RDD
 
 /**
- * Create by weiyupeng on 2021/8/9 21:53
+ * Create by weiyupeng on 2021/8/10 8:51
  */
-object Spark16_RddOperatorTransform {
+object Spark17_RddOperatorTransform1 {
     def main(args: Array[String]): Unit = {
         val sparkConf = new SparkConf().setMaster("local[*]").setAppName("Operator")
         val sc = new SparkContext(sparkConf)
 
         // TODO 算子 - key-value 类型
-        val rdd: RDD[(String, Int)] = sc.makeRDD(List(("a", 1), ("a", 2), ("b", 3), ("b", 4)), 2)
+        val rdd: RDD[(String, Int)] = sc.makeRDD(List(("a", 1), ("b", 2), ("a", 3), ("b", 4)), 2)
 
-        // 相同的 key 分到一个组 形成一个对偶元组
-        rdd.groupByKey().collect().foreach(println)
+        // 分区内和分区外计算规则相同时
+        rdd.foldByKey(0)((_: Int)+(_: Int)).collect().foreach(println)
 
         sc.stop()
     }
