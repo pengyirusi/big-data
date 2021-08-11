@@ -4,24 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="RDD Operator">
-      <change afterPath="$PROJECT_DIR$/spark/data/agent.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark17_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark17_RddOperatorTransform1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark18_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark19_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark20_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark21_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark22_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark23_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark24_RddOperatorTransform.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark25_RddOperatorTransform.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d451d1ce90a2d72fd8d4d6517c8af7d301910227" beforeDir="false" />
+    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="RDD 转换算子 终于完结了">
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark01_RddOperatorAction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark02_RddOperatorAction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark03_RddOperatorAction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark04_RddOperatorAction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark05_RddOperatorAction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/wordcount/Spark04_WordCount.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7546a298cc6988c0d2687aa70471954edaa38f31" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/feb51fb0095db7bc90884aa84de6ea8a2fa82dd0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark/markdown/chapter 04.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/markdown/chapter 04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark16_RddOperatorTransform.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark16_RddOperatorTransform.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/rdd/operator/transform/Spark16_RddOperatorTransform$.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/target/classes/rdd/operator/transform/Spark16_RddOperatorTransform$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,13 +106,13 @@
       <recent name="com.peng.spark.core.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Spark25_RddOperatorTransform">
-    <configuration name="Spark21_RddOperatorTransform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.transform.Spark21_RddOperatorTransform" />
+  <component name="RunManager" selected="Application.Spark05_RddOperatorAction">
+    <configuration name="Spark01_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark01_RddOperatorAction" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.operator.transform.*" />
+          <option name="PATTERN" value="rdd.operator.action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark22_RddOperatorTransform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.transform.Spark22_RddOperatorTransform" />
+    <configuration name="Spark02_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark02_RddOperatorAction" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.operator.transform.*" />
+          <option name="PATTERN" value="rdd.operator.action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark23_RddOperatorTransform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.transform.Spark23_RddOperatorTransform" />
+    <configuration name="Spark03_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark03_RddOperatorAction" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.operator.transform.*" />
+          <option name="PATTERN" value="rdd.operator.action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark24_RddOperatorTransform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.transform.Spark24_RddOperatorTransform" />
+    <configuration name="Spark04_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark04_RddOperatorAction" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.operator.transform.*" />
+          <option name="PATTERN" value="rdd.operator.action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark25_RddOperatorTransform" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.transform.Spark25_RddOperatorTransform" />
+    <configuration name="Spark05_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark05_RddOperatorAction" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.operator.transform.*" />
+          <option name="PATTERN" value="rdd.operator.action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,24 +172,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Spark25_RddOperatorTransform" />
-        <item itemvalue="Application.Spark24_RddOperatorTransform" />
-        <item itemvalue="Application.Spark23_RddOperatorTransform" />
-        <item itemvalue="Application.Spark22_RddOperatorTransform" />
-        <item itemvalue="Application.Spark21_RddOperatorTransform" />
+        <item itemvalue="Application.Spark05_RddOperatorAction" />
+        <item itemvalue="Application.Spark04_RddOperatorAction" />
+        <item itemvalue="Application.Spark03_RddOperatorAction" />
+        <item itemvalue="Application.Spark02_RddOperatorAction" />
+        <item itemvalue="Application.Spark01_RddOperatorAction" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +221,8 @@
       <workItem from="1628434106884" duration="33000" />
       <workItem from="1628507463820" duration="9975000" />
       <workItem from="1628554569306" duration="3174000" />
-      <workItem from="1628594395496" duration="11162000" />
+      <workItem from="1628594395496" duration="12894000" />
+      <workItem from="1628685088621" duration="4350000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -346,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628517556127</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="RDD 转换算子 终于完结了">
+      <created>1628606159845</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1628606159845</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +378,8 @@
     <MESSAGE value="复习了一遍 scala 语法，重新整理一下项目目录，这回正常了，不会找不到 object 了" />
     <MESSAGE value="一顿 RDD" />
     <MESSAGE value="RDD Operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="RDD Operator" />
+    <MESSAGE value="RDD 转换算子 终于完结了" />
+    <option name="LAST_COMMIT_MESSAGE" value="RDD 转换算子 终于完结了" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

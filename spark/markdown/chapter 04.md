@@ -148,10 +148,35 @@ package rdd.builder xxxPar.scala
 
 25. cogroup
 
+#### RDD 行动算子
 
+行动算子：触发作业执行的方法，底层调用的是环境对象的 runJob 方法
 
+底层代码中会创建 ActiveJob，并提交执行
 
+1. reduce
 
+2. collect
+
+3. count
+
+4. first
+
+5. take
+
+6. takeOrdered
+
+7. aggregate
+
+8. fold
+
+9. countByValue countByKey
+
+wordcount 的多种实现方式：package wordcount.Spark04_WordCount
+
+10. save
+
+11. foreach
 
 ## 累加器
 
