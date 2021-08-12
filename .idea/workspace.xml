@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="RDD 转换算子 终于完结了">
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark01_RddOperatorAction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark02_RddOperatorAction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark03_RddOperatorAction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark04_RddOperatorAction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark05_RddOperatorAction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/wordcount/Spark04_WordCount.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/7546a298cc6988c0d2687aa70471954edaa38f31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/feb51fb0095db7bc90884aa84de6ea8a2fa82dd0" beforeDir="false" />
+    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="RDD 行动算子 完结">
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark06_RddOperatorAction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/serial/Spark01_RDDSerial.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c90995d8a4862df66079be78880da77cc5180e0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark/markdown/chapter 04.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/markdown/chapter 04.md" afterDir="false" />
@@ -106,26 +101,13 @@
       <recent name="com.peng.spark.core.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Spark05_RddOperatorAction">
-    <configuration name="Spark01_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark01_RddOperatorAction" />
+  <component name="RunManager" selected="Application.Spark01_RDDSerial">
+    <configuration name="Spark01_RDDSerial" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.serial.Spark01_RDDSerial" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.operator.action.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spark02_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark02_RddOperatorAction" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rdd.operator.action.*" />
+          <option name="PATTERN" value="rdd.serial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,26 +154,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Spark06_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark06_RddOperatorAction" />
+      <module name="spark-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rdd.operator.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Spark01_RDDSerial" />
+        <item itemvalue="Application.Spark06_RddOperatorAction" />
         <item itemvalue="Application.Spark05_RddOperatorAction" />
         <item itemvalue="Application.Spark04_RddOperatorAction" />
         <item itemvalue="Application.Spark03_RddOperatorAction" />
-        <item itemvalue="Application.Spark02_RddOperatorAction" />
-        <item itemvalue="Application.Spark01_RddOperatorAction" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +215,8 @@
       <workItem from="1628507463820" duration="9975000" />
       <workItem from="1628554569306" duration="3174000" />
       <workItem from="1628594395496" duration="12894000" />
-      <workItem from="1628685088621" duration="4350000" />
+      <workItem from="1628685088621" duration="4548000" />
+      <workItem from="1628728021791" duration="1928000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -350,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628606159845</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="RDD 行动算子 完结">
+      <created>1628690088718</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1628690088718</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +380,8 @@
     <MESSAGE value="一顿 RDD" />
     <MESSAGE value="RDD Operator" />
     <MESSAGE value="RDD 转换算子 终于完结了" />
-    <option name="LAST_COMMIT_MESSAGE" value="RDD 转换算子 终于完结了" />
+    <MESSAGE value="RDD 行动算子 完结" />
+    <option name="LAST_COMMIT_MESSAGE" value="RDD 行动算子 完结" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

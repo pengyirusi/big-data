@@ -178,6 +178,12 @@ wordcount 的多种实现方式：package wordcount.Spark04_WordCount
 
 11. foreach
 
+### RDD 序列化
+
+1. 闭包检测：检查是否序列化了
+2. 
+
+
 ## 累加器
 
 分布式共享只写变量
