@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="RDD 行动算子 完结">
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/action/Spark06_RddOperatorAction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/serial/Spark01_RDDSerial.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c90995d8a4862df66079be78880da77cc5180e0" beforeDir="false" />
+    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="123">
+      <change afterPath="$PROJECT_DIR$/spark/checkPoint/5ac4ab8d-f2bf-4f17-9540-a8cfe92b7296/rdd-2/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/checkPoint/5ac4ab8d-f2bf-4f17-9540-a8cfe92b7296/rdd-2/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/markdown/images/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/dep/Spark01_RDDDep.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/dep/Spark02_RDDDep.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/persist/Spark01_RDDPersist.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/persist/Spark02_RDDPersist.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/persist/Spark03_RDDPersist.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/persist/Spark04_RDDPersist.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/persist/Spark05_RDDPersist.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark/markdown/chapter 04.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/markdown/chapter 04.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/serial/Spark01_RDDSerial.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/serial/Spark01_RDDSerial.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,13 +109,13 @@
       <recent name="com.peng.spark.core.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Spark01_RDDSerial">
-    <configuration name="Spark01_RDDSerial" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.serial.Spark01_RDDSerial" />
+  <component name="RunManager" selected="Application.Spark05_RDDPersist">
+    <configuration name="Spark01_RDDPersist" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.persist.Spark01_RDDPersist" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.serial.*" />
+          <option name="PATTERN" value="rdd.persist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark03_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark03_RddOperatorAction" />
+    <configuration name="Spark02_RDDPersist" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.persist.Spark02_RDDPersist" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.operator.action.*" />
+          <option name="PATTERN" value="rdd.persist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark04_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark04_RddOperatorAction" />
+    <configuration name="Spark03_RDDPersist" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.persist.Spark03_RDDPersist" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.operator.action.*" />
+          <option name="PATTERN" value="rdd.persist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark05_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark05_RddOperatorAction" />
+    <configuration name="Spark04_RDDPersist" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.persist.Spark04_RDDPersist" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.operator.action.*" />
+          <option name="PATTERN" value="rdd.persist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark06_RddOperatorAction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="rdd.operator.action.Spark06_RddOperatorAction" />
+    <configuration name="Spark05_RDDPersist" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.persist.Spark05_RDDPersist" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rdd.operator.action.*" />
+          <option name="PATTERN" value="rdd.persist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Spark01_RDDSerial" />
-        <item itemvalue="Application.Spark06_RddOperatorAction" />
-        <item itemvalue="Application.Spark05_RddOperatorAction" />
-        <item itemvalue="Application.Spark04_RddOperatorAction" />
-        <item itemvalue="Application.Spark03_RddOperatorAction" />
+        <item itemvalue="Application.Spark05_RDDPersist" />
+        <item itemvalue="Application.Spark04_RDDPersist" />
+        <item itemvalue="Application.Spark03_RDDPersist" />
+        <item itemvalue="Application.Spark02_RDDPersist" />
+        <item itemvalue="Application.Spark01_RDDPersist" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +224,9 @@
       <workItem from="1628554569306" duration="3174000" />
       <workItem from="1628594395496" duration="12894000" />
       <workItem from="1628685088621" duration="4548000" />
-      <workItem from="1628728021791" duration="1928000" />
+      <workItem from="1628728021791" duration="1998000" />
+      <workItem from="1628755661565" duration="1208000" />
+      <workItem from="1628762101842" duration="9783000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -351,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628690088718</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="123">
+      <created>1628729968690</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1628729968690</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +398,8 @@
     <MESSAGE value="RDD Operator" />
     <MESSAGE value="RDD 转换算子 终于完结了" />
     <MESSAGE value="RDD 行动算子 完结" />
-    <option name="LAST_COMMIT_MESSAGE" value="RDD 行动算子 完结" />
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
