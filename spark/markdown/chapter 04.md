@@ -1,6 +1,14 @@
 # chapter 04
 spark 核心编程 = RDD + 累加器 + 广播变量
 
++ 累加器
+
+分布式共享只写变量
+
++ 广播变量
+
+分布式共享只读变量
+
 ## RDD
 
 Driver 与 Executor 的通信:
@@ -224,12 +232,12 @@ Application(SparkContext) -> Job( Action 算子 ) -> Stage(shuffleDependency 的
 
 ### RDD 分区器
 
+代码：package rdd.partition
 
+自定义分区器:
+1. 继承 Partitioner
+2. 重写方法
 
-## 累加器
+### RDD 文件读取与保存
 
-分布式共享只写变量
-
-## 广播变量
-
-分布式共享只读变量
+代码：package rdd.io

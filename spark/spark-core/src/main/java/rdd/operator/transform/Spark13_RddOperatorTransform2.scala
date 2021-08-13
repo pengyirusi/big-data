@@ -17,7 +17,7 @@ object Spark13_RddOperatorTransform2 {
 
         val rdd3: RDD[(Int, Int)] = rdd1.zip(rdd2)
         // 会报错
-        // Can only zip RDDs with same number of elements in each partition
+        // Can only zip RDDs with same number of elements in each rdd.partition
 
         println(rdd3.collect().mkString(","))
 
