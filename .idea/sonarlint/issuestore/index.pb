@@ -334,8 +334,6 @@ p
 W
 'scala/src/notesWithCode/N16_Trait.scala,4\6\46c63d81dfae6c92ea989d1248caac0ed81bd83a
 @
-spark/data/1.txt,b\d\bde563bcccbe1b5976ce8918f42be648a53413b4
-@
 spark/data/3.txt,5\f\5ff70dd64fbe4460ebded229d657131b35cf4cfd
 L
 spark/markdown/chapter 01.md,0\6\06457157e07202cd006aa09f38fa2558816d9f18
@@ -371,8 +369,6 @@ b
 .spark/spark-core/src/main/java/test/Task.scala,1\b\1b58053229406faaaca8578b707035f6ef83ec07
 _
 /spark/spark-core/src/main/java/test2/Task.scala,8\0\803d085c5d18b5d57fe4fa845b11e495ff973eaf
-a
-1spark/spark-core/src/main/java/ScalaEnvTest.scala,8\f\8fcc71640032bb8d0691ba9219b52a1f6c33dbb9
 t
 Dspark/spark-core/src/main/java/rdd/builder/Spark02_RddFilePar1.scala,8\b\8b0c19844d4edf31770041e29b8049f14a0a0031
 9
@@ -481,8 +477,6 @@ Rspark/spark-core/src/main/java/rdd/operator/action/Spark04_RddOperatorAction.sc
 Xspark/spark-core/src/main/java/rdd/operator/transform/Spark01_RddOperatorTransform.scala,7\c\7c90995d8a4862df66079be78880da77cc5180e0
 ‚
 Rspark/spark-core/src/main/java/rdd/operator/action/Spark06_RddOperatorAction.scala,b\1\b1d7573b9adb45eda0080c1ac7991b77b1007108
-p
-@spark/spark-core/src/main/java/wordcount/Spark03_WordCount.scala,7\5\7546a298cc6988c0d2687aa70471954edaa38f31
 {
 Kspark/checkPoint/5ac4ab8d-f2bf-4f17-9540-a8cfe92b7296/rdd-2/.part-00000.crc,0\e\0e5f44e7c5af9cf3bd7880c96ce10930a7657a4a
 k
@@ -503,3 +497,43 @@ s
 Cspark/spark-core/src/main/java/rdd/persist/Spark04_RDDPersist.scala,a\b\ab96197c938410d23fd75431312362adcab2656d
 r
 Bspark/spark-core/src/main/java/rdd/builder/Spark01_RddMemory.scala,5\e\5e2cf93baf7ea8f2bbb01d5318ba53d6df02ef9c
+k
+;spark/spark-core/src/main/java/rdd/io/output1/._SUCCESS.crc,a\e\aef9467ae7087dfdf5239ddfc052b82bf2a32b2e
+k
+;spark/spark-core/src/main/java/rdd/io/output2/._SUCCESS.crc,1\e\1e58c4875d4bc68576ff225ec48fa88545b32d1c
+k
+;spark/spark-core/src/main/java/rdd/io/output3/._SUCCESS.crc,e\0\e00f6e4921453e9f63e4dd2d2936df5c8071356d
+m
+=spark/spark-core/src/main/java/rdd/io/output1/.part-00000.crc,4\6\469f4cef980b848f5dfb6528236b358bcff576a2
+m
+=spark/spark-core/src/main/java/rdd/io/output2/.part-00000.crc,2\c\2cce8086b7094fb1160ddaec75d0fcc78c74b39e
+m
+=spark/spark-core/src/main/java/rdd/io/output3/.part-00000.crc,3\a\3a6d77e950b52bbc0332f93ca5d5419bf8063fe6
+f
+6spark/spark-core/src/main/java/rdd/io/output1/_SUCCESS,b\9\b9f90a7d41a2a572b10743adc22321eb82fc04d1
+f
+6spark/spark-core/src/main/java/rdd/io/output2/_SUCCESS,2\2\222cd514f3893f23ebc3b5485645260798a5f7cf
+f
+6spark/spark-core/src/main/java/rdd/io/output3/_SUCCESS,1\b\1b8da74dcfc4ceb92fc1f2f794cdbb6e81589154
+L
+spark/markdown/chapter 04.md,7\6\76ef1b1134e1a8dcd1e6850260007d6bcfb8808f
+L
+spark/markdown/chapter 05.md,b\1\b13a529c39d55bd57f1f0982c63ebe82e04fd518
+h
+8spark/spark-core/src/main/java/rdd/io/output1/part-00000,6\4\6443281e521118ab75c95b90c39c5bc307082cda
+g
+7spark/spark-core/src/main/java/acc/Spark01_RddAcc.scala,f\a\fa9fe31fa92ceb1c9dc22753869fa9727b5ef073
+w
+Gspark/spark-core/src/main/java/rdd/partition/Spark01_RDDPartition.scala,c\3\c376aa9853723cc91e49e19179ff9acbcda6644b
+v
+Fspark/spark-core/src/main/java/rdd/io/Spark01_RDDPartitionIOSave.scala,5\b\5b0e2e93f96a851f0c1beaddc66861ba114e0948
+g
+7spark/spark-core/src/main/java/acc/Spark02_RddAcc.scala,4\a\4afba36ba41993de2d8db65da4d8ac88664ab954
+v
+Fspark/spark-core/src/main/java/rdd/io/Spark02_RDDPartitionIOLoad.scala,4\c\4c8a34e91a41b8cfbef07b2f4142580e439e61bb
+g
+7spark/spark-core/src/main/java/acc/Spark03_RddAcc.scala,0\c\0ce9a719f553af209f859593ee8d26742af74f4e
+g
+7spark/spark-core/src/main/java/acc/Spark04_RddAcc.scala,c\b\cb912cbd418e55beaa0dc9164e6d85274aa45ee3
+‰
+Yspark/spark-core/src/main/java/rdd/operator/transform/Spark13_RddOperatorTransform2.scala,4\f\4ff5b6b02c98d70965b14b097032099a38b52a37

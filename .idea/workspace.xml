@@ -4,35 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="终于快学完一半了">
-      <change afterPath="$PROJECT_DIR$/spark/data/user_visit_action.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/markdown/chapter 05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/markdown/chapter 06.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/acc/Spark01_RddAcc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/acc/Spark02_RddAcc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/acc/Spark03_RddAcc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/acc/Spark04_RddAcc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/bc/Spark01_RddBc.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/Spark01_RDDPartitionIOSave.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/Spark02_RDDPartitionIOLoad.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output1/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output1/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output1/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output1/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output2/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output2/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output2/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output2/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output3/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output3/.part-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output3/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/io/output3/part-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/partition/Spark01_RDDPartition.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e2cf93baf7ea8f2bbb01d5318ba53d6df02ef9c" beforeDir="false" />
+    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="吃了螺蛳粉">
+      <change afterPath="$PROJECT_DIR$/spark/markdown/images/img6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/application/WordCountApplication.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/common/TApplication.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/common/TController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/common/TDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/common/TService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/controller/WordCountController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/dao/WordCountDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/service/WordCountService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/util/EnvUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark01_Req1_HotCategoryTop10.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark02_Req1_HotCategoryTop10.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark03_Req1_HotCategoryTop10.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark04_Req1_HotCategoryTop10.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark05_Req2_ProductTop10InEachCategory.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark06_Req3_Pageflow.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fcc71640032bb8d0691ba9219b52a1f6c33dbb9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bde563bcccbe1b5976ce8918f42be648a53413b4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/markdown/chapter 04.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/markdown/chapter 04.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark13_RddOperatorTransform2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/rdd/operator/transform/Spark13_RddOperatorTransform2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/markdown/chapter 06.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/markdown/chapter 06.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/ScalaEnvTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/ScalaEnvTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/ScalaEnvTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/target/classes/ScalaEnvTest$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/scala/src/notesWithCode" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark/spark-core/src/main/java/req" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.17" />
@@ -101,11 +96,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\IDEA Project\big-data\spark\spark-core\src\main\java\req" />
       <recent name="Z:\IDEA Project\big-data\spark\data" />
       <recent name="Z:\IDEA Project\big-data\spark" />
       <recent name="Z:\IDEA Project\big-data\src.main" />
       <recent name="Z:\IDEA Project\big-data\spark\spark-core\src\main\java\rdd" />
-      <recent name="Z:\IDEA Project\big-data\spark\markdown" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\IDEA Project\big-data\spark\markdown\images" />
@@ -123,13 +118,20 @@
       <recent name="com.peng.spark.core.wordcount" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Spark01_RddBc">
-    <configuration name="Spark01_RddAcc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="acc.Spark01_RddAcc" />
+  <component name="RunManager" selected="Application.WordCountApplication">
+    <configuration name="ScalaEnvTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ScalaEnvTest" />
+      <module name="spark-core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spark04_Req1_HotCategoryTop10" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="req.Spark04_Req1_HotCategoryTop10" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="acc.*" />
+          <option name="PATTERN" value="req.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark01_RddBc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="bc.Spark01_RddBc" />
+    <configuration name="Spark05_Req2_ProductTop10InEachCategory" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="req.Spark05_Req2_ProductTop10InEachCategory" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bc.*" />
+          <option name="PATTERN" value="req.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark02_RddAcc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="acc.Spark02_RddAcc" />
+    <configuration name="Spark06_Req3_Pageflow" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="req.Spark06_Req3_Pageflow" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="acc.*" />
+          <option name="PATTERN" value="req.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark03_RddAcc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="acc.Spark03_RddAcc" />
+    <configuration name="WordCountApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="framework.application.WordCountApplication" />
       <module name="spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="acc.*" />
+          <option name="PATTERN" value="framework.application.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,26 +178,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spark04_RddAcc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="acc.Spark04_RddAcc" />
-      <module name="spark-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="acc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Spark01_RddBc" />
-        <item itemvalue="Application.Spark04_RddAcc" />
-        <item itemvalue="Application.Spark03_RddAcc" />
-        <item itemvalue="Application.Spark02_RddAcc" />
-        <item itemvalue="Application.Spark01_RddAcc" />
+        <item itemvalue="Application.WordCountApplication" />
+        <item itemvalue="Application.Spark06_Req3_Pageflow" />
+        <item itemvalue="Application.ScalaEnvTest" />
+        <item itemvalue="Application.Spark05_Req2_ProductTop10InEachCategory" />
+        <item itemvalue="Application.Spark04_Req1_HotCategoryTop10" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +232,8 @@
       <workItem from="1628762101842" duration="9815000" />
       <workItem from="1628814679887" duration="9000" />
       <workItem from="1628837956736" duration="9405000" />
+      <workItem from="1628857902233" duration="60000" />
+      <workItem from="1628992304610" duration="19244000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -380,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628776160162</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="吃了螺蛳粉">
+      <created>1628857946498</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1628857946498</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +421,8 @@
     <MESSAGE value="RDD 行动算子 完结" />
     <MESSAGE value="123" />
     <MESSAGE value="终于快学完一半了" />
-    <option name="LAST_COMMIT_MESSAGE" value="终于快学完一半了" />
+    <MESSAGE value="吃了螺蛳粉" />
+    <option name="LAST_COMMIT_MESSAGE" value="吃了螺蛳粉" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
