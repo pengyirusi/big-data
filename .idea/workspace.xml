@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="吃了螺蛳粉">
-      <change afterPath="$PROJECT_DIR$/spark/markdown/images/img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/application/WordCountApplication.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/common/TApplication.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/common/TController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/common/TDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/common/TService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/controller/WordCountController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/dao/WordCountDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/service/WordCountService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/framework/util/EnvUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark01_Req1_HotCategoryTop10.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark02_Req1_HotCategoryTop10.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark03_Req1_HotCategoryTop10.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark04_Req1_HotCategoryTop10.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark05_Req2_ProductTop10InEachCategory.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/req/Spark06_Req3_Pageflow.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fcc71640032bb8d0691ba9219b52a1f6c33dbb9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bde563bcccbe1b5976ce8918f42be648a53413b4" beforeDir="false" />
+    <list default="true" id="36c3272c-e80c-41ba-998f-579524836a15" name="Default Changelist" comment="spark-core 完结">
+      <change afterPath="$PROJECT_DIR$/spark/markdown/chapter 07.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spark/markdown/chapter 06.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark/markdown/chapter 06.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/src/main/java/ScalaEnvTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/src/main/java/ScalaEnvTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark-core/target/classes/ScalaEnvTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/spark/spark-core/target/classes/ScalaEnvTest$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,13 +159,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -233,7 +216,8 @@
       <workItem from="1628814679887" duration="9000" />
       <workItem from="1628837956736" duration="9405000" />
       <workItem from="1628857902233" duration="60000" />
-      <workItem from="1628992304610" duration="19244000" />
+      <workItem from="1628992304610" duration="19291000" />
+      <workItem from="1629113980565" duration="1487000" />
     </task>
     <task id="LOCAL-00001" summary="各种 bug 心情很差">
       <created>1627742647389</created>
@@ -389,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628857946498</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="spark-core 完结">
+      <created>1629030392222</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1629030392222</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +413,8 @@
     <MESSAGE value="123" />
     <MESSAGE value="终于快学完一半了" />
     <MESSAGE value="吃了螺蛳粉" />
-    <option name="LAST_COMMIT_MESSAGE" value="吃了螺蛳粉" />
+    <MESSAGE value="spark-core 完结" />
+    <option name="LAST_COMMIT_MESSAGE" value="spark-core 完结" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

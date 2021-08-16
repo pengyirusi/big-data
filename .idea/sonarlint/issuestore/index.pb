@@ -537,3 +537,25 @@ g
 7spark/spark-core/src/main/java/acc/Spark04_RddAcc.scala,c\b\cb912cbd418e55beaa0dc9164e6d85274aa45ee3
 ‰
 Yspark/spark-core/src/main/java/rdd/operator/transform/Spark13_RddOperatorTransform2.scala,4\f\4ff5b6b02c98d70965b14b097032099a38b52a37
+e
+5spark/spark-core/src/main/java/bc/Spark01_RddBc.scala,3\8\3851c47dea5879fe686a7325d5823825cffed820
+P
+ spark/data/user_visit_action.txt,9\e\9e98127c2cea6d843c2faac4c7364a7e5cc5e2ed
+p
+@spark/spark-core/src/main/java/wordcount/Spark03_WordCount.scala,7\5\7546a298cc6988c0d2687aa70471954edaa38f31
+@
+spark/data/1.txt,b\d\bde563bcccbe1b5976ce8918f42be648a53413b4
+a
+1spark/spark-core/src/main/java/ScalaEnvTest.scala,8\f\8fcc71640032bb8d0691ba9219b52a1f6c33dbb9
+v
+Fspark/spark-core/src/main/java/req/Spark01_Req1_HotCategoryTop10.scala,9\0\9087d7ba0562006677560c8f910a102401e2b31b
+v
+Fspark/spark-core/src/main/java/req/Spark02_Req1_HotCategoryTop10.scala,8\8\88e23df16c89dd85faea2d870336f0e5a3740b78
+v
+Fspark/spark-core/src/main/java/req/Spark03_Req1_HotCategoryTop10.scala,b\b\bb827f7014e04d2d4f7002837e6f6de3ed75ccf3
+v
+Fspark/spark-core/src/main/java/req/Spark04_Req1_HotCategoryTop10.scala,f\1\f1b98c4005d3bd591e44b67c6c0ab0abb8291551
+€
+Pspark/spark-core/src/main/java/req/Spark05_Req2_ProductTop10InEachCategory.scala,c\a\cab5af0f138ee25eb417ab763b291e484306ed3b
+n
+>spark/spark-core/src/main/java/req/Spark06_Req3_Pageflow.scala,5\8\5891f72b3ff0e47ed535a04d523cbe46d795320d
